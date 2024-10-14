@@ -16,8 +16,8 @@ public:
 	void setName(string name);
 	void setSalary(float salary);
 
-	void showInfo()const;
+	virtual void showInfo()const;
 
-	float calcSalary()const;
+	virtual float calcSalary()const;
 };
 

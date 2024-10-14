@@ -15,9 +15,9 @@ public:
 	void setCost(int cost);
 	void setHours(int hours);
 
-	void showInfo()const;
+	void showInfo()const override;
 
-	float calcSalary()const;
+	float calcSalary()const override;
 
 };
 
